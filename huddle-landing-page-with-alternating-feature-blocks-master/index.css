@@ -110,6 +110,9 @@ body{
     border-radius: 15px;
     margin-top: 100px;
     margin-left: 30px;
+    position: relative;
+    top: 70px;
+    background: #fff;
 }
 .bot{
     margin-bottom: 35px;
@@ -128,6 +131,7 @@ body{
     width: 100%;
     background: #00252e;
     color: #ffffff;
+    padding-top: 100px;
 }
 .footer-content{
     display: flex;
@@ -247,14 +251,15 @@ h5{
         margin-left: 93px;
     }
     .logo-footer{
-        height: 40px;
-        width: 35%;
+        height: 35px;
+        width: 55%;
         left: 0;
         margin-bottom: 50px;
     }
     .bottom{
         width: 50%;
         margin-left: 25%;
+        top: 110px;
     }
     .bot{
         bottom: 0;
@@ -270,6 +275,7 @@ h5{
     .foot{
         display: flex;
         flex-direction: row;
+        padding-bottom: 75px;
     }
     .footer-left{
         display: flex;
@@ -301,6 +307,6 @@ h5{
         margin-left: 0;
     }
     .text-copy{
-        margin-top: 100px;
+        margin-top: 105px;
     }
 }
